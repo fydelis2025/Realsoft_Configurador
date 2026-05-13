@@ -1,0 +1,136 @@
+﻿namespace Realsoft_Configurador
+{
+    partial class FormLogin
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogin));
+            this.BtCancelar = new Megasoft.MegasoftButton();
+            this.TxLogin = new System.Windows.Forms.TextBox();
+            this.TxSenha = new System.Windows.Forms.TextBox();
+            this.BtOK = new Megasoft.MegasoftButton();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // BtCancelar
+            // 
+            this.BtCancelar.BackColor = System.Drawing.Color.Transparent;
+            this.BtCancelar.ButtonText = "Cancelar";
+            this.BtCancelar.Location = new System.Drawing.Point(182, 151);
+            this.BtCancelar.Name = "BtCancelar";
+            this.BtCancelar.Size = new System.Drawing.Size(100, 32);
+            this.BtCancelar.TabIndex = 1;
+            this.BtCancelar.Click += new System.EventHandler(this.BtCancelar_Click);
+            // 
+            // TxLogin
+            // 
+            this.TxLogin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxLogin.Location = new System.Drawing.Point(39, 35);
+            this.TxLogin.Name = "TxLogin";
+            this.TxLogin.Size = new System.Drawing.Size(223, 29);
+            this.TxLogin.TabIndex = 2;
+            this.TxLogin.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxLogin_KeyDown);
+            // 
+            // TxSenha
+            // 
+            this.TxSenha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxSenha.Location = new System.Drawing.Point(39, 94);
+            this.TxSenha.Name = "TxSenha";
+            this.TxSenha.PasswordChar = '*';
+            this.TxSenha.Size = new System.Drawing.Size(223, 29);
+            this.TxSenha.TabIndex = 3;
+            // 
+            // BtOK
+            // 
+            this.BtOK.BackColor = System.Drawing.Color.Transparent;
+            this.BtOK.ButtonText = "Logar";
+            this.BtOK.Location = new System.Drawing.Point(59, 151);
+            this.BtOK.Name = "BtOK";
+            this.BtOK.Size = new System.Drawing.Size(100, 32);
+            this.BtOK.TabIndex = 0;
+            this.BtOK.Click += new System.EventHandler(this.BtOK_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(39, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(33, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Login";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(39, 78);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(38, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Senha";
+            // 
+            // FormLogin
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::Realsoft_Configurador.Properties.Resources.principal;
+            this.ClientSize = new System.Drawing.Size(289, 195);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.TxSenha);
+            this.Controls.Add(this.TxLogin);
+            this.Controls.Add(this.BtCancelar);
+            this.Controls.Add(this.BtOK);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "FormLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Login";
+            this.Load += new System.EventHandler(this.FormLogin_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private Megasoft.MegasoftButton BtOK;
+        private Megasoft.MegasoftButton BtCancelar;
+        private System.Windows.Forms.TextBox TxLogin;
+        private System.Windows.Forms.TextBox TxSenha;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+    }
+}
